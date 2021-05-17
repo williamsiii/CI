@@ -11,7 +11,7 @@ function upVersion(path, type = 'patch') {
 
     switch (type) {
         case 'major': {
-            doUpVersion(`${major + 1}.0.0`);
+            doUpVersion(`${major + 1}.1.0`);
             break;
         }
         case 'minor': {
